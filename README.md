@@ -1,4 +1,4 @@
-# Hamptons Backyrd Pi Zero – Handover Setup and Recovery Guide
+# Hamptons Backyard Pi Zero – Handover Setup and Recovery Guide
 
 ## 1. Set Up the Pi as a Wi-Fi Hotspot (Handover)
 Use when: Setting up a self-contained control system so irrigation, lighting, and automation continue to operate without relying on external Wi-Fi or internet. This is also used when preparing the system for handover, allowing a new occupant to immediately connect via tablet or laptop and operate or modify the setup without any network configuration.
