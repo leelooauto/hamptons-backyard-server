@@ -73,13 +73,13 @@ Contents:
 ```text
 interface=wlan0
 driver=nl80211
-ssid=NodeRedPi
+ssid=BackyardPi
 hw_mode=g
 channel=6
 wmm_enabled=0
 auth_algs=1
 wpa=2
-wpa_passphrase=REPLACE_WITH_PASSWORD
+wpa_passphrase=[REPLACE_WITH_PASSWORD]
 wpa_key_mgmt=WPA-PSK
 rsn_pairwise=CCMP
 ```
@@ -115,14 +115,14 @@ sudo reboot
 ---
 
 ## 2. Confirm the Hotspot Is Working
-Use when: After setup or changes, to verify devices can connect reliably, Node-RED is accessible, IP assignment is correct, and the system recovers properly after reboot or power loss.
+Use when: After setup or changes, to verify devices can connect reliably, Backyard Pi is accessible, IP assignment is correct, and the system recovers properly after reboot or power loss.
 
 ### Connect a Device
 
 Connect a laptop, phone or tablet to:
 
 ```text
-SSID: NodeRedPi
+SSID: BackyardPi
 Password: <your password>
 ```
 
@@ -142,7 +142,7 @@ Open:
 http://192.168.4.1:1880
 ```
 
-If using the Dashboard:
+If using the Node-REd Dashboard:
 
 ```text
 http://192.168.4.1:1880/ui
@@ -176,7 +176,7 @@ Use when: Moving the system from standalone operation to integration with an exi
 Connect your laptop to:
 
 ```text
-SSID: NodeRedPi
+SSID: BackyardPi
 ```
 
 SSH into the Pi:
