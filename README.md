@@ -1,6 +1,6 @@
-# Raspberry Pi Zero – Hotspot Setup and Recovery Guide
+# Hamptons Backyrd Pi Zero – Handover Setup and Recovery Guide
 
-## 1. Set Up the Pi as a Wi-Fi Hotspot
+## 1. Set Up the Pi as a Wi-Fi Hotspot (Handover)
 Use when: Setting up a self-contained control system so irrigation, lighting, and automation continue to operate without relying on external Wi-Fi or internet. This is also used when preparing the system for handover, allowing a new occupant to immediately connect via tablet or laptop and operate or modify the setup without any network configuration.
 
 ### Install Required Packages
@@ -114,7 +114,7 @@ sudo reboot
 
 ---
 
-## 2. Confirm the Hotspot Is Working
+## 2. Confirm the Hotspot Is Working (Direct Connect)
 Use when: After setup or changes, to verify devices can connect reliably, Backyard Pi is accessible, IP assignment is correct, and the system recovers properly after reboot or power loss.
 
 ### Connect a Device
@@ -168,7 +168,7 @@ Confirm:
 
 ---
 
-## 3. Revert Hotspot and Connect to a New Wi-Fi Network
+## 3. Revert Hotspot and Connect to a New Wi-Fi Network (Internet Enabled)
 Use when: Moving the system from standalone operation to integration with an existing Wi-Fi network, typically when a new owner wants broader network access, remote control, or integration with their own infrastructure.
 
 ### Connect to the Pi Hotspot
@@ -281,7 +281,7 @@ http://<pi-ip-address>:1880
 
 ---
 
-## 4. Change to a New Wi-Fi Network (Without Using Hotspot)
+## 4. Change to a New Wi-Fi Network
 Use when: Updating Wi-Fi credentials after router changes or network updates while keeping all system services running without interruption.
 
 ### Run raspi-config
