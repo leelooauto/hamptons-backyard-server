@@ -168,7 +168,7 @@ Confirm:
 
 ---
 
-## 3. Revert Hotspot and Connect to a New Wi-Fi Network (Internet Enabled)
+## 3. Revert Hotspot and Connect to a New Wi-Fi Network (Recovery)
 Use when: Moving the system from standalone operation to integration with an existing Wi-Fi network, typically when a new owner wants broader network access, remote control, or integration with their own infrastructure.
 
 ### Connect to the Pi Hotspot
